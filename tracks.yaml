@@ -17,4 +17,4 @@ tracks:
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/turtlebot/turtlebot_create.git
-    version: '{auto}'
+    version: ask
