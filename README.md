@@ -1,3 +1,26 @@
+## turtlebot_create (hydro) - 2.2.1-0
+
+The packages in the `turtlebot_create` repository were released into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create -t hydro -r hydro` on `Wed, 23 Jul 2014 02:16:37 -0000`
+
+These packages were released:
+- `create_description`
+- `create_driver`
+- `create_node`
+- `turtlebot_create`
+
+Version of package(s) in repository `turtlebot_create`:
+- rosdistro version: `2.2.0-1`
+- old version: `2.2.0-1`
+- new version: `2.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## turtlebot_create (hydro) - 2.2.0-1
 
 The packages in the `turtlebot_create` repository were released into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create -t hydro -r hydro` on `Fri, 23 May 2014 02:17:08 -0000`
