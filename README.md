@@ -1,3 +1,28 @@
+## turtlebot_create (indigo) - 2.3.0-0
+
+The packages in the `turtlebot_create` repository were released into the `indigo` distro by running `/usr/bin/bloom-release turtlebot_create -t indigo -r indigo --new-track` on `Sun, 30 Nov 2014 07:11:18 -0000`
+
+These packages were released:
+- `create_description`
+- `create_driver`
+- `create_node`
+- `turtlebot_create`
+
+Version of package(s) in repository `turtlebot_create`:
+- upstream repository: https://github.com/turtlebot/turtlebot_create.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.3.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.14`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## turtlebot_create (hydro) - 2.2.1-0
 
 The packages in the `turtlebot_create` repository were released into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create -t hydro -r hydro` on `Wed, 23 Jul 2014 02:16:37 -0000`
