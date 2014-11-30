@@ -2,6 +2,11 @@
 Changelog for package create_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2014-11-30)
+------------------
+* -Fix extreme slipping of create base in gazebo by using same parameters that kobuki uses
+* Contributors: Stefan Kohlbrecher
+
 2.2.1 (2014-07-23)
 ------------------
 

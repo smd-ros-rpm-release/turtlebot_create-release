@@ -2,6 +2,12 @@
 Changelog for package create_node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2014-11-30)
+------------------
+* Set queue size
+* Actually use provided configuration
+* Contributors: Kenneth Bogert, trainman419
+
 2.2.1 (2014-07-23)
 ------------------
 * Remove open() to fix double-open exception. Improve error info when an exception on opening serial port happens
