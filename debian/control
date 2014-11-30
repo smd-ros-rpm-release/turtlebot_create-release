@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-create
+Section: misc
+Priority: extra
+Maintainer: OSRF <turtlebot@osrfoundation.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_create
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-create
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-create-description, ros-indigo-create-driver, ros-indigo-create-node
+Description: Catkin metapackage for the turtlebot_create stack
