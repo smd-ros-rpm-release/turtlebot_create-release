@@ -1,0 +1,12 @@
+Source: ros-indigo-create-node
+Section: misc
+Priority: extra
+Maintainer: OSRF <turtlebot@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-create-driver, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-rospy, ros-indigo-tf
+Homepage: http://ros.org/wiki/create_node
+Standards-Version: 3.9.2
+
+Package: ros-indigo-create-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-create-driver, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-python-orocos-kdl, ros-indigo-rospy, ros-indigo-tf
+Description: iRobot Create ROS driver node ROS bindings for the Create/Roomba driver. This is based on otl_roomba driver by OTL, ported to use create_driver's implementation instead. This also contains a 'bonus' feature from the turtlebot driver by Xuwen Cao and Morgan Quigley.
