@@ -1,0 +1,12 @@
+Source: ros-indigo-create-description
+Section: misc
+Priority: extra
+Maintainer: OSRF <turtlebot@osrfoundation.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/create_description
+Standards-Version: 3.9.2
+
+Package: ros-indigo-create-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-urdf, ros-indigo-xacro
+Description: Model description for the iRobot Create
